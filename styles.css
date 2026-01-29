@@ -109,6 +109,7 @@ main{
 .logo{
   height:auto;
   display:block;
+  max-width: 100%;
 }
 
 .subline{
