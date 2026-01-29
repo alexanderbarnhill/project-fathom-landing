@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Project Fathom — Understanding Orca Communication." />
+  <title>Project Fathom</title>
+
+  <!-- GitHub Pages friendly: relative paths -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="container">
+    <header aria-label="Header">
+      <a class="brand" href="#" aria-label="Project Fathom home">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-title">Project Fathom</div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="pill" href="http://raincoastresearch.org/" target="_blank" rel="noreferrer">A Raincoast Research Initiative</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Project Fathom">
+        <img class="logo" src="logo.svg" alt="Project Fathom — Understanding Orca Communication" />
+
+        <p class="subline">
+          Research and engineering to better understand the structure and meaning of orca vocal exchange.
+        </p>
+
+<!--        <div class="accent-row" aria-label="Accents">-->
+<!--          <span class="chip"><span class="dot" aria-hidden="true"></span> Ocean</span>-->
+<!--          <span class="chip"><span class="dot brass" aria-hidden="true"></span> Instrument</span>-->
+<!--          <span class="chip"><span class="mono">#0b2239</span> · <span class="mono">#1aa6a6</span> · <span class="mono">#d6a94a</span></span>-->
+<!--        </div>-->
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-row">
+        <div class="small">© <span id="y"></span> Project Fathom</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
